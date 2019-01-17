@@ -1,31 +1,110 @@
+body {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 aside {
-  width: 20%;
+  width: 15vw;
   height: 100vh;
-  background-color: #181618;
-  color: white;
+  background-color: black;
+  color: #8D8D8D;
   font-size: 12px;
+  
 }
 
 .logo {
-  width: 150px;
+  position: relative;
+  width: 80%;
+  left: 7%;
+  margin-top: 20%;
+  margin-bottom: 30%;
+
+}
+
+.cart_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3vh;
+    position: relative;
+    right: 15%;
+}
+
+.cart {
+  position: relative;
+  right: 48%;  
+}
+
+.product_count {
+  position: relative;  
+  right: 3vw;
+}
+
+.lit_products {
+  border-top: solid .25px #0d0d0d;
+  border-bottom: solid .25px #0d0d0d;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.current {
+  color: #3ECFF7;  
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 15px;
+  position: relative;
+  left: 10%;
+}
+
+.prolist{
+  font-size: 12px; 
+  position: relative;
+  left: 10%;
+}
+
+li {
+  margin-top: 1vh; 
+}
+
+#about {
+  margin-top: 5vh;
+}
+
+#contact {
+  margin-top: 1vh;
 }
 
 main {
-  width: 80%;
+  width: 85vw;
   min-height: 100vh;
-  background-color: #303030;
+  background-color: #191919;
   color: white;
+  
 }
 h1 {
-  font-size: 18px;
+  font-size: 16px;
+  position: relative;
+  left: 5vw;
+  top: 10vh;
+  margin-bottom: 3%;
 }
 .products_container {
   width: 90%;
+  position: relative;
+  left: 4vw;
+  top: 10vh;
 }
 .product {
   width: 150px;
+  margin: 10px;
+}
+
+cite {
+  position: absolute;
+  bottom: 4vh;  
+  left: 2vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #3C3C3B;
 }
